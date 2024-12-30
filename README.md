@@ -2,7 +2,7 @@
     <img height="128" src=".idea/icon.png" alt="Icon of the Project">
 </p>
 
-<h1 align="center">PerfectlyBalancedHorses</h1>
+<h1 align="center">Perfectly Balanced Horses</h1>
 
 <p align="center">Make horses useful again!</p>
 
