@@ -1,0 +1,26 @@
+use-vanilla-offspring-attribute-range: true
+attributes:
+  movement-speed:
+    modify: true
+    multiplier: 150.0
+    offspring-attribute-range:
+      start: -0.5
+      end: 0.5
+    ignore-excess: false
+    ignore-deficit: false
+  jump-strength:
+    modify: true
+    multiplier: 150.0
+    offspring-attribute-range:
+      start: -0.5
+      end: 0.5
+    ignore-excess: false
+    ignore-deficit: false
+  health:
+    modify: true
+    multiplier: 150.0
+    offspring-attribute-range:
+      start: -0.5
+      end: 0.5
+    ignore-excess: false
+    ignore-deficit: false

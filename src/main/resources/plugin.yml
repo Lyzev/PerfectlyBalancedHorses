@@ -1,8 +1,13 @@
-name: ${PROJECT_NAME}
-version: '0.0.0'
-main: dev.lyzev.spigotPluginTemplate.SpigotPluginTemplate
+name: PerfectlyBalancedHorses
+version: '1.0.0'
+main: dev.lyzev.pbh.PerfectlyBalancedHorses
 api-version: '1.21'
-prefix: ${PROJECT_NAME}@Lyzev
+prefix: PerfectlyBalancedHorses@Lyzev
 authors: [ Lyzev ]
-description: A template for developing open-source plugins for the Spigot Minecraft server.
+description: Make horses useful again!
 website: https://lyzev.dev
+commands:
+  pbhreload:
+    description: Reload the plugin
+    usage: /pbhreload
+    permission: pbh.reload
