@@ -21,6 +21,7 @@
 
 ## Table of Contents
 
+- [Installation](#installation)
 - [Description](#description)
 - [Screenshots](#screenshots)
 - [Configuration](#configuration)
@@ -32,6 +33,15 @@
 - [Bugs and Suggestions](#bugs-and-suggestions)
     - [Discord](#discord)
     - [GitHub](#github)
+
+## Installation
+
+1. Download the version of the plugin you need from [Modrinth](https://modrinth.com/plugin/perfectlybalancedhorses).
+2. Place the downloaded JAR file in the `plugins` directory of your server.
+3. Start or reload your server. (It is recommended to restart the server to ensure the plugin is loaded correctly.)
+4. Configure the plugin to your liking by editing the `config.yml` file in the `plugins/PerfectlyBalancedHorses` directory.
+5. Reload the plugin using the `/pbhreload` command or by restarting the server.
+6. Enjoy breeding perfectly balanced horses!
 
 ## Description
 
