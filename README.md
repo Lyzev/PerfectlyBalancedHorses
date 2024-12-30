@@ -9,10 +9,6 @@
 <div align="center">
     <a href="https://lyzev.github.io/discord"><img src="https://img.shields.io/discord/610120595765723137?logo=discord" alt="Discord"/></a>
     <br><br>
-    <img src="https://img.shields.io/github/downloads/Lyzev/PerfectlyBalancedHorses/total" alt="GitHub downloads"/>
-    <br>
-    <img alt="GitHub Tag" src="https://img.shields.io/github/v/tag/Lyzev/PerfectlyBalancedHorses?include_prereleases&sort=date&color=orange">
-    <br><br>
     <img src="https://img.shields.io/github/last-commit/Lyzev/PerfectlyBalancedHorses" alt="GitHub last commit"/>
     <img src="https://img.shields.io/github/commit-activity/w/Lyzev/PerfectlyBalancedHorses" alt="GitHub commit activity"/>
     <br>
