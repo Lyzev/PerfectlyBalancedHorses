@@ -2,8 +2,11 @@
 
 ## Supported Versions
 
-At the moment, no official releases have been made yet, so no version is officially supported yet.
-Keep in mind that nightly builds are not guaranteed to be stable and are not supported.
+The following versions of the project are currently being supported with security updates:
+
+| Version | Supported          |
+|---------| ------------------ |
+| 1.0.0   | ✓                  |
 
 ## Reporting a Vulnerability
 
