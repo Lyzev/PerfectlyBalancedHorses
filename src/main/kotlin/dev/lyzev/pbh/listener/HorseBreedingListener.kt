@@ -20,7 +20,7 @@ package dev.lyzev.pbh.listener
 import dev.lyzev.pbh.config.ConfigManager
 import dev.lyzev.pbh.util.AttributeCalculator
 import org.bukkit.attribute.Attribute
-import org.bukkit.entity.AbstractHorse
+import org.bukkit.entity.Horse
 import org.bukkit.event.EventHandler
 import org.bukkit.event.Listener
 import org.bukkit.event.entity.EntityBreedEvent
@@ -39,16 +39,16 @@ class HorseBreedingListener(private val configManager: ConfigManager, private va
     @EventHandler
     fun onEntityBreed(event: EntityBreedEvent) {
         val foal = event.entity
-        if (foal is AbstractHorse) {
-            val mother = event.mother as AbstractHorse
-            val father = event.father as AbstractHorse
+        if (foal is Horse) {
+            val mother = event.mother as Horse
+            val father = event.father as Horse
             logger.info("Breeding horses: Mother(${mother.name}, ${mother.uniqueId}), Father(${father.name}, ${father.uniqueId})")
             val movementSpeed = configManager.movementSpeed
             if (movementSpeed.modify) {
-                foal.getAttribute(Attribute.MOVEMENT_SPEED)?.baseValue =
+                foal.getAttribute(Attribute.GENERIC_MOVEMENT_SPEED)?.baseValue =
                     AttributeCalculator.calculateAttributeBaseValue(
-                        mother.getAttribute(Attribute.MOVEMENT_SPEED)?.baseValue ?: movementSpeed.vanillaRange.start,
-                        father.getAttribute(Attribute.MOVEMENT_SPEED)?.baseValue ?: movementSpeed.vanillaRange.start,
+                        mother.getAttribute(Attribute.GENERIC_MOVEMENT_SPEED)?.baseValue ?: movementSpeed.vanillaRange.start,
+                        father.getAttribute(Attribute.GENERIC_MOVEMENT_SPEED)?.baseValue ?: movementSpeed.vanillaRange.start,
                         configManager.movementSpeed.vanillaRange.endInclusive * configManager.movementSpeed.multiplier / 100.0,
                         movementSpeed.vanillaRange.start,
                         movementSpeed.vanillaRange.endInclusive,
@@ -62,10 +62,10 @@ class HorseBreedingListener(private val configManager: ConfigManager, private va
             }
             val jumpStrength = configManager.jumpStrength
             if (jumpStrength.modify) {
-                foal.getAttribute(Attribute.JUMP_STRENGTH)?.baseValue =
+                foal.getAttribute(Attribute.HORSE_JUMP_STRENGTH)?.baseValue =
                     AttributeCalculator.calculateAttributeBaseValue(
-                        mother.getAttribute(Attribute.JUMP_STRENGTH)?.baseValue ?: jumpStrength.vanillaRange.start,
-                        father.getAttribute(Attribute.JUMP_STRENGTH)?.baseValue ?: jumpStrength.vanillaRange.start,
+                        mother.getAttribute(Attribute.HORSE_JUMP_STRENGTH)?.baseValue ?: jumpStrength.vanillaRange.start,
+                        father.getAttribute(Attribute.HORSE_JUMP_STRENGTH)?.baseValue ?: jumpStrength.vanillaRange.start,
                         configManager.jumpStrength.vanillaRange.endInclusive * configManager.jumpStrength.multiplier / 100.0,
                         jumpStrength.vanillaRange.start,
                         jumpStrength.vanillaRange.endInclusive,
@@ -79,10 +79,10 @@ class HorseBreedingListener(private val configManager: ConfigManager, private va
             }
             val health = configManager.health
             if (health.modify) {
-                foal.getAttribute(Attribute.MAX_HEALTH)?.baseValue =
+                foal.getAttribute(Attribute.GENERIC_MAX_HEALTH)?.baseValue =
                     AttributeCalculator.calculateAttributeBaseValue(
-                        mother.getAttribute(Attribute.MAX_HEALTH)?.baseValue ?: health.vanillaRange.start,
-                        father.getAttribute(Attribute.MAX_HEALTH)?.baseValue ?: health.vanillaRange.start,
+                        mother.getAttribute(Attribute.GENERIC_MAX_HEALTH)?.baseValue ?: health.vanillaRange.start,
+                        father.getAttribute(Attribute.GENERIC_MAX_HEALTH)?.baseValue ?: health.vanillaRange.start,
                         configManager.health.vanillaRange.endInclusive * configManager.health.multiplier / 100.0,
                         health.vanillaRange.start,
                         health.vanillaRange.endInclusive,

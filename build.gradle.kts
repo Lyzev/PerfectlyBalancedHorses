@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "dev.lyzev"
-version = "1.0.0"
+version = "1.0.0-legacy"
 
 repositories {
     mavenCentral()
@@ -17,11 +17,11 @@ repositories {
 }
 
 dependencies {
-    compileOnly(libs.spigot.api)
+    compileOnly(libs.bukkit.api)
     implementation(libs.kotlin.stdlib)
 }
 
-val targetJavaVersion = 21
+val targetJavaVersion = 8
 kotlin {
     jvmToolchain(targetJavaVersion)
 }

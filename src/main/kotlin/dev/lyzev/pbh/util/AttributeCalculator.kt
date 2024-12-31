@@ -17,7 +17,6 @@
 
 package dev.lyzev.pbh.util
 
-import java.lang.Math.clamp
 import kotlin.math.abs
 import kotlin.random.Random.Default.nextDouble
 
@@ -43,8 +42,8 @@ object AttributeCalculator {
     ): Double {
         var parentBase = parentBase
         var otherParentBase = otherParentBase
-        parentBase = clamp(parentBase, vanillaMin, max)
-        otherParentBase = clamp(otherParentBase, vanillaMin, max)
+        parentBase = parentBase.coerceIn(vanillaMin, max)
+        otherParentBase = otherParentBase.coerceIn(vanillaMin, max)
 
         val rangeBuffer = 0.3 * ((if (useVanillaOffspringAttributeRange) vanillaMax else max) - vanillaMin)
         val totalRangeDifference = abs(parentBase - otherParentBase) + rangeBuffer
@@ -62,4 +61,5 @@ object AttributeCalculator {
             finalBaseValue
         }
     }
+
 }

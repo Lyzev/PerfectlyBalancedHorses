@@ -1,7 +1,6 @@
 name: PerfectlyBalancedHorses
-version: '1.0.0'
+version: '1.0.0-legacy'
 main: dev.lyzev.pbh.PerfectlyBalancedHorses
-api-version: '1.21'
 prefix: PerfectlyBalancedHorses@Lyzev
 authors: [ Lyzev ]
 description: Make horses useful again!
