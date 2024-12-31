@@ -1,6 +1,6 @@
 plugins {
     kotlin("jvm") version libs.versions.kotlin.get()
-    id("com.github.johnrengelman.shadow") version libs.versions.shadow.get()
+    alias(libs.plugins.shadow)
 }
 
 group = "dev.lyzev"

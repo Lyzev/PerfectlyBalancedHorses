@@ -6,3 +6,6 @@ spigot = "1.21.4-R0.1-SNAPSHOT"
 [libraries]
 kotlin-stdlib = { group = "org.jetbrains.kotlin", name = "kotlin-stdlib-jdk8", version.ref = "kotlin" }
 spigot-api = { group = "org.spigotmc", name = "spigot-api", version.ref = "spigot" }
+
+[plugins]
+shadow = { id = "com.github.johnrengelman.shadow", version.ref = "shadow" }
