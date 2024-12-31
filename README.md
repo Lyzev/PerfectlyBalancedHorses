@@ -21,6 +21,7 @@
 
 ## Table of Contents
 
+- [Why?](#why)
 - [Installation](#installation)
 - [Description](#description)
 - [Screenshots](#screenshots)
@@ -33,6 +34,14 @@
 - [Bugs and Suggestions](#bugs-and-suggestions)
     - [Discord](#discord)
     - [GitHub](#github)
+
+## Why?
+
+Horses in Minecraft are often overlooked due to their lack of utility compared to other types of transportation, such as
+elytra or boats. This plugin aims to make horses more useful by enhancing the breeding process, allowing players to
+breed horses with improved stats. By modifying attributes such as movement speed, jump strength, and health, players can
+create exceptionally fast, high-jumping, and healthy horses that are more competitive with other forms of
+transportation.
 
 ## Installation
 
