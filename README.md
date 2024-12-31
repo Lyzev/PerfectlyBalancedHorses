@@ -21,6 +21,7 @@
 
 ## Table of Contents
 
+- [Why?](#why)
 - [Installation](#installation)
 - [Description](#description)
 - [Screenshots](#screenshots)
@@ -34,12 +35,23 @@
     - [Discord](#discord)
     - [GitHub](#github)
 
+## Why?
+
+Horses in Minecraft are often overlooked due to their lack of utility compared to other types of transportation, such as
+elytra or boats. This plugin aims to make horses more useful by enhancing the breeding process, allowing players to
+breed horses with improved stats. By modifying attributes such as movement speed, jump strength, and health, players can
+create exceptionally fast, high-jumping, and healthy horses that are more competitive with other forms of
+transportation.
+
+And it is just fun to breed horses and see what you get!
+
 ## Installation
 
 1. Download the version of the plugin you need from [Modrinth](https://modrinth.com/plugin/perfectlybalancedhorses).
 2. Place the downloaded JAR file in the `plugins` directory of your server.
 3. Start or reload your server. (It is recommended to restart the server to ensure the plugin is loaded correctly.)
-4. Configure the plugin to your liking by editing the `config.yml` file in the `plugins/PerfectlyBalancedHorses` directory.
+4. Configure the plugin to your liking by editing the `config.yml` file in the `plugins/PerfectlyBalancedHorses`
+   directory.
 5. Reload the plugin using the `/pbhreload` command or by restarting the server.
 6. Enjoy breeding perfectly balanced horses!
 
