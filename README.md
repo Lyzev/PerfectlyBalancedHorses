@@ -4,7 +4,7 @@
 
 <h1 align="center">Perfectly Balanced Horses</h1>
 
-<p align="center">Make horses useful again!</p>
+<p align="center">Make horses great again!</p>
 
 <div align="center">
     <a href="https://lyzev.github.io/discord"><img src="https://img.shields.io/discord/610120595765723137?logo=discord" alt="Discord"/></a>
