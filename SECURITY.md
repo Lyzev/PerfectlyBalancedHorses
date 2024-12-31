@@ -4,9 +4,10 @@
 
 The following versions of the project are currently being supported with security updates:
 
-| Version | Supported          |
-|---------| ------------------ |
-| 1.0.0   | ✓                  |
+| Version        | Supported          |
+|----------------| ------------------ |
+| 1.0.0          | ✓                  |
+| 1.0.0-legacy   | ✕                  |
 
 ## Reporting a Vulnerability
 
