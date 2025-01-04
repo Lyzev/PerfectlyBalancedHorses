@@ -137,9 +137,9 @@ The plugin provides the following commands:
 
 ## Tips
 
-It is recommended to use the **Horse Statistics** client-side mod to view the horse's stats. This mod displays the
+It is recommended to use the **Horse Power** client-side mod to view the horse's stats. This mod displays the
 horse's speed, jump height, and health in the horse's inventory screen. It is available at the following link:
-[Horse Statistics](https://modrinth.com/mod/horse-statistics).
+[Horse Power](https://modrinth.com/mod/horse-power).
 
 *Note: The mod is not required to use the plugin, but it is highly recommended for a better user experience. Only use it
 if it is allowed on the server you are playing on.*
