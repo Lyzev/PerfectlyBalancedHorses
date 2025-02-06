@@ -1,39 +1,26 @@
-<p align="center">
-    <img height="128" src=".idea/icon.png" alt="Icon of the Project">
-</p>
-
-<h1 align="center">Perfectly Balanced Horses</h1>
-
-<p align="center">Make horses great again!</p>
-
 <div align="center">
-    <a href="https://lyzev.github.io/discord"><img src="https://img.shields.io/discord/610120595765723137?logo=discord" alt="Discord"/></a>
-    <br><br>
-    <img src="https://img.shields.io/github/last-commit/Lyzev/PerfectlyBalancedHorses" alt="GitHub last commit"/>
-    <img src="https://img.shields.io/github/commit-activity/w/Lyzev/PerfectlyBalancedHorses" alt="GitHub commit activity"/>
+    <img src="https://wsrv.nl/?url=https://github.com/Lyzev/PerfectlyBalancedHorses/blob/master/.idea/icon.png?raw=true&w=330&h=330" alt="Icon of Kratos">
     <br>
-    <img src="https://img.shields.io/github/languages/code-size/Lyzev/PerfectlyBalancedHorses" alt="GitHub code size in bytes"/>
-    <img src="https://img.shields.io/github/contributors/Lyzev/PerfectlyBalancedHorses" alt="GitHub contributors"/>
-    <br><br>
-    <a href="https://github.com/Lyzev/PerfectlyBalancedHorses/actions/workflows/build.yml"><img src="https://github.com/Lyzev/PerfectlyBalancedHorses/actions/workflows/build.yml/badge.svg" alt="Build"/></a>
-    <a href="https://github.com/Lyzev/PerfectlyBalancedHorses/actions/workflows/gradle-wrapper-validation.yml"><img src="https://github.com/Lyzev/PerfectlyBalancedHorses/actions/workflows/gradle-wrapper-validation.yml/badge.svg" alt="gradle-wrapper-validation"/></a>
+    <a href="https://github.com/Lyzev/PerfectlyBalancedHorses">
+        <img src="https://wsrv.nl/?url=https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3.2.0/assets/cozy-minimal/available/github_vector.svg&w=64&h=64" alt="GitHub Repository">
+    </a>
+    <a href="https://modrinth.com/plugin/perfectlybalancedhorses/settings/description">
+        <img src="https://wsrv.nl/?url=https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3.2.0/assets/cozy-minimal/available/modrinth_vector.svg&w=64&h=64" alt="Modrinth">
+    </a>
+    <a href="https://lyzev.dev/discord">
+        <img src="https://wsrv.nl/?url=https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy-minimal/social/discord-plural_vector.svg&w=64&h=64" alt="Discord">
+    </a>
+    <a href="https://github.com/Lyzev/PerfectlyBalancedHorses/pulls">
+        <img src="https://wsrv.nl/?url=https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3.2.0/assets/cozy-minimal/documentation/pull-requests_vector.svg&w=64&h=64" alt="Pull Requests">
+    </a>
+    <a href="https://github.com/Lyzev/PerfectlyBalancedHorses/issues">
+        <img src="https://wsrv.nl/?url=https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3.2.0/assets/cozy-minimal/documentation/issues_vector.svg&w=64&h=64" alt="Issues">
+    </a>
 </div>
 
-## Table of Contents
+# Perfectly Balanced Horses: Make horses great again!
 
-- [Why?](#why)
-- [Installation](#installation)
-- [Description](#description)
-- [Screenshots](#screenshots)
-- [Configuration](#configuration)
-- [Commands](#commands)
-- [Tips](#tips)
-- [License](#license)
-- [Security](#security)
-- [Contributing](#contributing)
-- [Bugs and Suggestions](#bugs-and-suggestions)
-    - [Discord](#discord)
-    - [GitHub](#github)
+<img src="https://wsrv.nl/?url=https://github.com/Lyzev/PerfectlyBalancedHorses/blob/master/assets/meme.png?raw=true&w=400" alt="Meme"/>
 
 ## Why?
 
@@ -47,13 +34,19 @@ And it is just fun to breed horses and see what you get!
 
 ## Installation
 
+[![Modrinth](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3.2.0/assets/cozy/available/modrinth_vector.svg)](https://modrinth.com/plugin/perfectlybalancedhorses)
+
 1. Download the version of the plugin you need from [Modrinth](https://modrinth.com/plugin/perfectlybalancedhorses).
 2. Place the downloaded JAR file in the `plugins` directory of your server.
 3. Start or reload your server. (It is recommended to restart the server to ensure the plugin is loaded correctly.)
-4. Configure the plugin to your liking by editing the `config.yml` file in the `plugins/PerfectlyBalancedHorses`
-   directory.
+4. Configure the plugin to your liking by editing the `config.yml` file in the `plugins/PerfectlyBalancedHorses` directory.
 5. Reload the plugin using the `/pbhreload` command or by restarting the server.
 6. Enjoy breeding perfectly balanced horses!
+
+> [!TIP]
+> It is recommended to use the **Horse Power** client-side mod to view the horse's stats. This mod displays the
+horse's speed, jump height, and health in the horse's inventory screen. It is available at the following link:
+[Horse Power](https://modrinth.com/mod/horse-power).
 
 ## Description
 
@@ -68,8 +61,8 @@ additional settings to control whether excess or deficit attribute values should
 
 ## Screenshots
 
-![Breeding 1](assets/breeding_1.png)
-![Breeding 2](assets/breeding_2.png)
+![Breeding 1](https://github.com/Lyzev/PerfectlyBalancedHorses/blob/master/assets/breeding_1.png?raw=true)
+![Breeding 2](https://github.com/Lyzev/PerfectlyBalancedHorses/blob/master/assets/breeding_2.png?raw=true)
 
 ## Configuration
 
@@ -126,8 +119,9 @@ attributes:
     ignore-deficit: false
 ```
 
-*Note: The `multiplier` setting is a percentage value. For example, a `multiplier` of 150.0 will increase the attributes
-max value by 50%.*
+> [!IMPORTANT]
+> The `multiplier` setting is a percentage value. For example, a `multiplier` of 150.0 will increase the attributes
+max value by 50%.
 
 ## Commands
 
@@ -135,45 +129,51 @@ The plugin provides the following commands:
 
 - `/pbhreload`: Reloads the plugin's configuration file. Requires the `pbh.reload` permission.
 
-## Tips
 
-It is recommended to use the **Horse Power** client-side mod to view the horse's stats. This mod displays the
-horse's speed, jump height, and health in the horse's inventory screen. It is available at the following link:
-[Horse Power](https://modrinth.com/mod/horse-power).
+## Bugs and Suggestions
 
-*Note: The mod is not required to use the plugin, but it is highly recommended for a better user experience. Only use it
-if it is allowed on the server you are playing on.*
+### Discord Community
 
-## LICENSE
+Need help with minor concerns or have questions? Join our supportive community on the [Discord server](https://lyzev.dev/discord). Our friendly members and staff are here to assist you!
 
-This project is licensed under the [AGPL-3.0 License](LICENSE).
+[![Discord Server](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/social/discord-plural_vector.svg)](https://lyzev.dev/discord)
+
+### GitHub Issues
+
+For bugs or suggestions, please submit them via the [GitHub Issue Tracker](https://github.com/Lyzev/PerfectlyBalancedHorses/issues). Kindly use the provided templates and include all relevant details to ensure we can resolve your issue quickly. Your cooperation is greatly appreciated!
+
+
+## Contribution Guidelines
+
+We welcome contributions from the community! Please read our [Contribution Guidelines](https://github.com/Lyzev/PerfectlyBalancedHorses/blob/master/CONTRIBUTING.md) to get started.
 
 ## Security
 
-If you discover a security vulnerability within this project, please refer to the [SECURITY.md](SECURITY.md) file for
+If you discover a security vulnerability within this project, please refer to the [SECURITY.md](https://github.com/Lyzev/PerfectlyBalancedHorses/blob/master/SECURITY.md) file for
 more information on how to report it.
 
 **Please do not disclose security-related issues publicly.**
 
-*Note: This project is under AGPL-3.0 license, which means there is no warranty for this software. Use at your own risk.
-See the [LICENSE](LICENSE) for more details.*
+> [!WARNING]
+> This project is under AGPL-3.0 license, which means there is no warranty for this software. Use at your own risk.
+See the [LICENSE](https://github.com/Lyzev/PerfectlyBalancedHorses/blob/master/LICENSE) for more details.
 
-## Contributing
+## LICENSE
 
-If you are interested in contributing to this project, please refer to the [CONTRIBUTING.md](CONTRIBUTING.md) file for
-more information.
+Copyright (C) 2025 Lyzev
 
-## Bugs and Suggestions
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as
+published by the Free Software Foundation, either version 3 of the
+License, or (at your option) any later version.
 
-### Discord
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
 
-For assistance with minor concerns, feel free to join our supportive community on
-the [Discord server](https://lyzev.dev/discord). Our friendly members and staff are ready to help you.
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-### GitHub
-
-To ensure a prompt and effective resolution of bugs or to share your suggestions, please submit them through
-the [issue tracker](https://github.com/Lyzev/PerfectlyBalancedHorses/issues) of this repository. Kindly utilize the
-provided templates
-and make sure to include all relevant details that would help us understand your issue better. Your cooperation is
-greatly appreciated.
+---
+*Perfectly Balanced Horses is developed and maintained by Lyzev. Thank you for using Perfectly Balanced Horses!*
