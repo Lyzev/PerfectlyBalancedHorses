@@ -4,7 +4,7 @@
     <a href="https://github.com/Lyzev/PerfectlyBalancedHorses">
         <img src="https://wsrv.nl/?url=https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3.2.0/assets/cozy-minimal/available/github_vector.svg&w=64&h=64" alt="GitHub Repository">
     </a>
-    <a href="https://modrinth.com/plugin/perfectlybalancedhorses/settings/description">
+    <a href="https://modrinth.com/plugin/perfectlybalancedhorses">
         <img src="https://wsrv.nl/?url=https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3.2.0/assets/cozy-minimal/available/modrinth_vector.svg&w=64&h=64" alt="Modrinth">
     </a>
     <a href="https://lyzev.dev/discord">
